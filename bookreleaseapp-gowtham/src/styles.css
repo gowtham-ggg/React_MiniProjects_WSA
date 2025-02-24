@@ -1,0 +1,106 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.main {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.book-data {
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-data h2 {
+  font-size: 20px;
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+.book-data p {
+  margin: 5px 0;
+  color: #6c757d;
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.button-container button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.button-container button:first-child {
+  background-color: white;
+  border: 1px solid;
+  color: #212529;
+}
+
+.button-container button.avail {
+  background-color: #28a745;
+  color: #fff;
+}
+.button-container button.red {
+  background-color: white;
+  color: red;
+}
